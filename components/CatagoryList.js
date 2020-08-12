@@ -12,9 +12,10 @@ export default class CatagoryList extends React.Component {
         super(props)
     }
     render() {
+        const { catagory } = this.props;
         return (
             <View style={styles.containerList} >
-              <Text style={styles.title}>{this.props.title}</Text>
+              <Text style={styles.title}>{catagory.title}</Text>
               <Image source={Soccer} style={styles.catagoryItem} />
             </View>
           );
