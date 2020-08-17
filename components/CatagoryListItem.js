@@ -1,23 +1,34 @@
-<script src="http://192.168.5.120:8097"></script>
+
 import React from 'react'
 import {
     Image,
     Text,
     View,
-    StyleSheet
+    StyleSheet,
+    TouchableOpacity,
+    Alert
 } from 'react-native';
 import Soccer from '../assets/soccer.png';
 export default class CatagoryList extends React.Component {
     constructor(props) {
-        super(props)
+        super(props);
     }
     render() {
-        const { catagory } = this.props;
+        const { catagory, onPress} = this.props;
         return (
-            <View style={styles.containerList} >
-              <Text style={styles.title}>{catagory.title}</Text>
-              <Image source={Soccer} style={styles.catagoryItem} />
-            </View>
+            <TouchableOpacity 
+            activeOpacity={0.5} 
+            onPress={onPress}>
+                <View style={styles.containerList} >
+                    <Text style={styles.title}>
+                        {catagory.title}
+                    </Text>
+                    <Image 
+                    source={Soccer} 
+                    style={styles.catagoryItem} />
+                </View>
+            </TouchableOpacity>
+            
           );
     }
   

@@ -1,0 +1,44 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "img": [
+                {
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnVJg8lvk9dHlKAG2A61N_vjrqasqPvEc7JQ&usqp=CAU"
+                }
+            ],
+            "name": "One piece toy",
+            "price": 10000,
+            "catagory" : 1
+        },
+        {
+            "id": 2,
+            "img": [
+                {
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnVJg8lvk9dHlKAG2A61N_vjrqasqPvEc7JQ&usqp=CAU"
+                }
+            ],
+            "name": "One piece toy",
+            "price": 10000,
+            "catagory": 2
+        },
+        {
+            "id": 3,
+            "img": [
+                {
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnVJg8lvk9dHlKAG2A61N_vjrqasqPvEc7JQ&usqp=CAU"
+                }
+            ],
+            "name": "One piece toy",
+            "price": 10000,
+            "catagory": 2
+        }
+    ],
+    "catagories": [
+        {"id": 1, "title": "Soccer play!"},
+        {"id": 2, "title": "Volleyball play!"},
+        {"id": 3, "title": "tennis play!"},
+        {"id": 4, "title": "Basketball play!"},
+        {"id": 5, "title": "Match play!"}
+    ]
+}
